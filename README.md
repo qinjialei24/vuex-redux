@@ -1,4 +1,4 @@
-# 轻量级的 Redux 封装
+# 轻量级的 Redux 封装，Make Redux as simple as Vuex
 
 示例项目
 
