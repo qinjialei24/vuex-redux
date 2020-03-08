@@ -95,13 +95,15 @@ export default store
 // 类似vuex调用： dispatch('add',payload)
 
 // 调用 counter 的 add
-dispatch(store.counter.add)////类似 vuex调用
+dispatch(store.counter.add)//类似 vuex调用
+
 dispatch({ //原生redux调用
   type:store.counter.add,
 })
 
 // 调用 todo 的 delete
 dispatch(store.counter.add,{})//类似 vuex调用
+
 dispatch({//原生redux调用
   type:store.counter.delete,
   payload:{}
