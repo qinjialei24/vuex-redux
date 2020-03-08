@@ -1,7 +1,7 @@
 {
   "name": "vuex-redux",
   "version": "0.1.6",
-  "description": "make redux easy",
+  "description": "Make Redux as simple as Vuex",
   "main": "./dist/main.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/qinjialei24/my-redux.git"
+    "url": "git+https://github.com/qinjialei24/vuex-redux.git"
   },
   "keywords": [
     "redux",
@@ -28,7 +28,7 @@
   "author": "qinjialei <954551222@qq.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/qinjialei24/my-redux/issues"
+    "url": "https://github.com/qinjialei24/vuex-redux/issues"
   },
-  "homepage": "https://github.com/qinjialei24/my-redux#readme"
+  "homepage": "https://github.com/qinjialei24/vuex-redux#readme"
 }
