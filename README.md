@@ -4,6 +4,9 @@
 [示例项目](https://github.com/qinjialei24/vuex-redux/tree/master/demo)
 
 ## 使用
+>npm install vuex-redux
+
+
 >1. 目录结构(使用`modules`来拆分各个`reducer`，参照`vuex module`
 >2. 不需要手动编写`action`
 >3. 提供`namespace`，参照` vuex namespace`
