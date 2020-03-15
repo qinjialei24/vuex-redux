@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { composeWithDevTools } from 'redux-devtools-extension';
-import { setActionToStore, storeEnhancer } from "vuex-redux";
+import { setActionToStore, storeEnhancer } from "redux-happy";
 
 import todo from "./modules/todo";
 import counter from "./modules/counter";

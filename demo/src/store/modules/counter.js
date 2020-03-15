@@ -1,4 +1,4 @@
-import { createModel } from "vuex-redux";
+import { createModel } from "redux-happy";
 
 const model = {
   namespace: 'counter',
