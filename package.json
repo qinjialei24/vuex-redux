@@ -1,6 +1,6 @@
 {
-  "name": "vuex-redux",
-  "version": "0.1.9",
+  "name": "redux-happy",
+  "version": "0.2.1",
   "description": "Make Redux as simple as Vuex",
   "main": "./dist/main.min.js",
   "scripts": {

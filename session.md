@@ -9,12 +9,11 @@ presentation:
 
 
 <!-- slide -->
-# 从0实现 Redux 
+## 从0实现及优化Redux 
 <!-- slide -->
 ## Redux 的核心概念
 - `发布订阅模式`
 - `(state,action) => newState`
-  - `导致状态的变更必须是一个纯函数`
 <!-- slide -->
 ## 发布订阅模式
 ```js
@@ -162,17 +161,23 @@ const state ={
   a:{
     count:0,
     b:{
-      c:{
-        count:1
-      }
+      count:1
     }
   }
 }
 ```
 
-- `组件A依赖state.a.b.c`
-- `组件B修改了state.a`
+- `组件A依赖state.a.b`
+- `组件B修改了state.a.count=1`
 - `解决方式：immer + shouldComponentUpdate`
+```js
+shouldComponentUpdate(nextProps,nextState){
+ if( nextProps.a.b === this.props.a.b ){
+        return false
+    }
+ return true
+}
+```
 
 <!-- slide -->
 - ## 模板代码太多，比如需要定义各种烦人的 action、actionCreator
