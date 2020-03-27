@@ -6,11 +6,11 @@
 ## 使用
 >npm install vuex-redux
 
-
+## 特性
 >1. 目录结构(使用`modules`来拆分各个`reducer`，参照`vuex module`
 >2. 不需要手动编写`action`
 >3. 提供`namespace`，参照` vuex namespace`
->4. 内置 `immer`，以`mutable`方式去操作`state`
+>4. 内置 `immer`，既能享受便捷的`mutable`方式去操作`state`，又能享受`immutable`带来的`状态可预测和方便做性能优化`的优点
 
 ## 目录结构
 - modules
