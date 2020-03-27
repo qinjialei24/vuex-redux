@@ -6,6 +6,7 @@ function Counter(props) {
       <h3>counter value is:</h3>
       <hr />
       <button onClick={() => { props.add(111) }}>+</button>
+      <button onClick={() => { props.asyncAdd(111) }}>async +</button>
       <button onClick={props.minus}>-</button>
       <h4>{props.count}</h4>
     </div>

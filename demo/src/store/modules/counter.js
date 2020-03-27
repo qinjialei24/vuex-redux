@@ -6,7 +6,7 @@ const model = {
     count: 10
   },
   reducer: {
-    add(state, action) {
+    add(state, action) { // counter/add
       state.count += 1
     },
     minus(state, action) {

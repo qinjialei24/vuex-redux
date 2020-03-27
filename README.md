@@ -141,7 +141,7 @@ export function todoReducer(state = { todoList:[] }, action) {
     case ADD_TODO:
       return {
         ...state,
-        todoList:state.todoList.push(action.payload)
+        todoList:[...state.todoList,action.payload]
       }
     default:
       return state
