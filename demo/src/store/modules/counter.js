@@ -7,6 +7,7 @@ const model = {
   },
   reducer: {
     add(state, action) { // counter/add
+      console.log("-> state list", state.count);
       state.count += 1
     },
     minus(state, action) {
